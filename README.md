@@ -8,14 +8,14 @@ Application allows the user to sort and search employees by name
 
 ##  Table of Contents
 
-* [Installation](#Installation)
+* [Site Link](#Site)
 * [Usage](#Usage)
 * [License](#License)
 * [Picture](#Picture)
 * [Questions](#Questions)
 
-## Installation
-
+## Site Link
+[https://stevenvc-p.github.io/employee_directory/](https://stevenvc-p.github.io/employee_directory/)
 
 ## Usage
 In the search bar just type the name (or part of the name) of the employee you are looking for.
