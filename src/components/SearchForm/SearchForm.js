@@ -1,18 +1,19 @@
 import React from "react";
 import "./styles.css";
 
-function SearchForm(props){
+function SearchForm(props) {
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <nav className="navbar navbar-expand navbar-light bg-light">
+
             <div className="navbar-collapse row" id="navbarNav">
-                <div className="searchBox">
-                    <form className="form-inline">
+
+                <div className="searchBox"><form className="form-inline">
                         <input
-                            value={props.search}
-                            onChange={props.handleInputChange}
+                            value= {props.search}
+                            onChange= {props.handleInputChange}
                             name="term"
                             list="term"
-                            type="search"
+                            type="text"
                             className="form-control"
                             id="term"
                             placeholder="Search" 

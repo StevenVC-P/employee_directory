@@ -12,22 +12,22 @@ function SearchResults(props) {
         return result
       }).map(result => (
         <tr key ={result.login.uuid}>
-          <td data-th="image">
+          <td className= "image">
           <img src={result.picture.medium} alt={ `headshot of: ${result.name.first} ${result.name.last}`} ></img>
           </td>
-          <td data-th="name">
-            {result.name.first}{result.name.last}
+          <td className="name">
+            {result.name.first} {result.name.last}
           </td>
-          <td data-th="phone">
+          <td className="phone">
             {result.cell}
           </td>
-          <td data-th="email">
+          <td className="email">
             <a href={ `mailto:${result.email}` } target="_blank" rel="noreferrer">
               {result.email}
             </a>
           </td>
-          <td data-th="dob">
-            {moment("{result.dob.date}").format("L")}{}
+          <td className="dob">
+            {moment(result.dob.date).format("L")}{}
           </td>
         </tr>
       ))}
