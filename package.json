@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "empoyee_directory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://stevenvc-p.github.io/empoyee_directory",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -15,7 +16,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://StevenVC-P.github.io/empoyee_directory",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
