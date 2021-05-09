@@ -11,8 +11,7 @@ Application allows the user to sort and search employees by name
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
+* [Picture](#Picture)
 * [Questions](#Questions)
 
 ## Installation
@@ -25,11 +24,8 @@ In the search bar just type the name (or part of the name) of the employee you a
 Mozzila Public License 2.0
 Please review [https://opensource.org/licenses/MPL-2.0](https://opensource.org/licenses/MPL-2.0) to understand the license.
 
-## Contributing
-
-
-## Tests
-
+## Picture
+![image](https://user-images.githubusercontent.com/77998885/117557700-7a849380-b03b-11eb-9170-3f230e68ee09.png)
 
 ## Questions
 Come checkout my Github!
